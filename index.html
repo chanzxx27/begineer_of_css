@@ -1,0 +1,195 @@
+<!-- creating the inline css in html project -->
+<h1>chaging the color and background of a text using inline CSS</h1>
+<p style="color:blue; background-color:yellow;">This is a paragraph with blue text and yellow background.</p>
+<p style="color:red; background-color:lightgrey;">This is another paragraph with red text and light grey background.</p>
+<p style="color:green; background-color:pink;">This is yet another paragraph with green text and pink background.</p>
+<p style="color:purple; background-color:lightblue;">This is a paragraph with purple text and light blue background.</p>
+
+
+
+
+<hr>
+
+
+
+
+<!-- adding background color by style tag using the internal CSS -->
+<h1>Adding background color using internal CSS</h1>
+<p>paragraph 1</p>
+<p>paragraph 2</p>
+<p>paragraph 3</p>
+<p>paragraph 4</p>
+<style>
+  p {
+    background-color: lightgreen;
+  }
+</style>
+
+
+
+
+<hr>
+
+
+
+<!-- adding different color for different paragraphs using internal CSS -->
+<h1>Adding different colors to paragraphs using internal CSS</h1>
+<p class="para1">This is paragraph 1.</p>
+<p class="para2">This is paragraph 2.</p>
+<p class="para3">This is paragraph 3.</p>
+<p class="para4">This is paragraph 4.</p>
+<style>
+  .para1 {
+    color: orange; background-color: blue;
+  }
+  .para2 {
+    color: teal;background-color: yellow;
+  }
+  .para3 {
+    color: brown;background-color: burlywood;
+  }
+  .para4 {
+    color: navy;background-color: magenta;
+  }
+</style>
+
+
+
+
+
+<hr>
+
+
+
+
+<!-- selectors in css -->
+<h1>CSS Selectors Example</h1>
+<ol></ol>
+  <li>Element Selector</li>
+  <li>Class Selector</li>
+  <li>ID Selector</li>
+  <li>Universal Selector</li>
+</ol>
+
+
+
+
+<hr>
+
+
+
+<!-- element selector in css -->
+<h1>Element Selector Example</h1>
+<p>This is a paragraph styled using element selector.</p>
+<p>This is another paragraph styled using element selector.</p>
+<style>
+  p {
+    color: darkblue;
+    font-size: 18px;
+  }
+</style>
+
+
+
+<hr>
+
+
+
+<!-- class selector in css -->
+<h1>Class Selector Example</h1>
+<p class="highlight">This paragraph is highlighted using class selector.</p>    
+<p class="highlight">This is another highlighted paragraph using class selector.</p>
+<style>
+  .highlight {
+    background-color: rgb(12, 228, 217);
+    font-weight: bold;
+  }
+</style>
+
+
+
+<hr>
+
+
+
+<!-- id selector in css -->
+<h1>ID Selector Example</h1>
+<p id="unique">This paragraph is styled using ID selector.</p>
+<style>
+  #unique {
+    color: darkred;
+    font-size: 20px;
+  }
+</style>
+
+
+
+
+<hr>
+
+
+
+
+<!-- universal selector in css -->
+<div>
+    <h1>Universal Selector Example</h1>
+    <p>This is a paragraph styled using universal selector. when it used it changes the font of all the text in the page</p>
+    <p>This is another paragraph styled using universal selector.</p>
+    <style>
+     * {
+        font-family: Arial, sans-serif;
+        color: darkgreen;
+    }
+    </style>
+</div>
+
+
+
+<hr>
+
+
+
+
+<!-- knowing about CSS box model -->
+<h1>CSS Box Model Example</h1>
+<h3>the CSS box model is essentially a box that wraps around every html element it consist of:</h3>
+<ul>
+    <li>Margins: outermost layer, creates space between elements</li>
+    <li>Borders: wraps around the padding and content</li>
+    <li>Padding: space between the content and the border</li>
+    <li>Content: innermost layer, where text and images appear</li>
+</ul>
+<div style="width: 100px; padding: 20px; border: 5px groove black; margin: 10px; background-color: lightyellow;">
+    This box demonstrates the CSS box model.
+</div>
+<p>In this example, the box has a width of 200px, padding of 20px, a border of 5px, and a margin of 10px. The background color is light yellow.</p>
+
+
+
+
+<hr>
+
+
+
+<!-- using attribute text align in a border-->
+<h1>Using text align attribute in a border</h1>
+<div style="border: 2px solid black; padding: 10px; text-align: center;">
+    <p>This text is centered within a bordered box.</p> 
+</div>
+<div style="border: 2px solid black; padding: 10px; text-align: right;">
+    <p>This text is aligned to the right within a bordered box.</p>
+</div>
+<div style="border: 2px solid black; padding: 10px; text-align: left;">
+    <p>This text is aligned to the left within a bordered box.</p>
+</div>
+<div style="border: 2px solid black; padding: 10px; text-align: justify;">
+    <p>This text is justified within a bordered box. Justified text aligns both the left and right edges, creating a clean look.</p>
+</div>
+
+
+
+<hr>
+
+
+
+
